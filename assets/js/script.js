@@ -4,8 +4,7 @@ var beerListContainer = document.querySelector('#beerList')
 // Function to display current beer list
 function renderBeerDisplay(data) {
     fetch('https://server.digitalpour.com/DashboardServer/api/v3/MenuItems/556fbbe55e002c0d44d5bd22/1/Tap?apiKey=556fbc725e002c0d44d5bd3a', {
-        // The browser fetches the resource from the remote server without first looking in the cache.
-        // The browser will then update the cache with the downloaded resource.
+    
         cache: 'reload',
     })
         .then(function (response) {
@@ -37,10 +36,10 @@ function renderBeerDisplay(data) {
                 card.append(cardBody);
                 cardBody.append(cardTitle, beerIcon, beerStyleEl);
 
-                col.setAttribute('class', 'col-md');
+                col.setAttribute('class', 'col-md-3');
                 col.classList.add('beer-card');
-                card.setAttribute('class', 'card bg-primary h-100 text-white');
-                cardBody.setAttribute('class', 'card-body p-2');
+                card.setAttribute('class', 'card text-black');
+                cardBody.setAttribute('class', 'card-body');
                 cardTitle.setAttribute('class', 'card-title');
                 beerStyleEl.setAttribute('class', 'card-text');
 

@@ -1,0 +1,8 @@
+.beer-card{
+    justify-content: center;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
