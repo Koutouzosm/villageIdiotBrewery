@@ -38,7 +38,7 @@ function renderBeerDisplay(data) {
 
                 col.setAttribute('class', 'col-md-3');
                 col.classList.add('beer-card');
-                card.setAttribute('class', 'card text-black');
+                card.setAttribute('class', 'card text-white');
                 cardBody.setAttribute('class', 'card-body');
                 cardTitle.setAttribute('class', 'card-title');
                 beerStyleEl.setAttribute('class', 'card-text');
