@@ -118,6 +118,19 @@ footer {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .now-on-tap {
+    width: 200;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .container {
+    max-width: 80vw;
+max-height: 80vh;
+  }
+}
+
   body, html {
     background: #2a2e32;
     height: 100%;
