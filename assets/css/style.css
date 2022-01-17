@@ -11,7 +11,7 @@
     height: auto;
 } */
     .add-spaces{
-      height: 500px;
+      height: 600px;
     }
     .jumbotron{
       background: url("../Images/image_72192707.JPG") transparent no-repeat center; 
@@ -141,6 +141,11 @@ footer {
    width: 380px;
  }
 }
+@media screen and (max-width: 600px) {
+ .add-spaces {
+   height: 300px;
+ }
+ }
 
 @media screen and (min-width: 992px) {
   .container {
