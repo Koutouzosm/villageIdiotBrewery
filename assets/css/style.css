@@ -121,10 +121,13 @@ footer {
   .carousel-containers {
     padding: 1.5em 0;
   }
-.now-on-tap {
-    width: 200;
-  }
 
+}
+
+@media screen and (min-width: 450px) {
+ iframe {
+   width: 380px;
+ }
 }
 
 @media screen and (min-width: 992px) {
