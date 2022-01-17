@@ -3,11 +3,23 @@
     background: #2a2e32;
     height: 100%;
   }
-
-  .img {
-    width: 100vw;
-    height: 100vh;
+  img {
+    display: block;
+    max-width:230px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+    .add-spaces{
+      height: 500px;
     }
+    .jumbotron{
+      background: url("../Images/image_72192707.JPG") transparent no-repeat center; 
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+  }
 
 .beer-card{
     justify-content: center;
