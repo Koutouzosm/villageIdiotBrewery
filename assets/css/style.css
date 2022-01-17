@@ -3,13 +3,13 @@
     background: #2a2e32;
     height: 100%;
   }
-  img {
+  /* img {
     display: block;
     max-width:230px;
     max-height:250px;
     width: auto;
     height: auto;
-}
+} */
     .add-spaces{
       height: 500px;
     }
