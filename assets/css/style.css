@@ -1,3 +1,14 @@
+
+  body, html {
+    background: #2a2e32;
+    height: 100%;
+  }
+
+  .img {
+    width: 100vw;
+    height: 100vh;
+    }
+
 .beer-card{
     justify-content: center;
     background-color: transparent;
@@ -110,17 +121,15 @@ footer {
   .carousel-containers {
     padding: 1.5em 0;
   }
+.now-on-tap {
+    width: 200;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
   .container {
     max-width: 930px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .now-on-tap {
-    width: 200;
   }
 }
 
@@ -130,10 +139,5 @@ footer {
 max-height: 80vh;
   }
 }
-
-  body, html {
-    background: #2a2e32;
-    height: 100%;
-  }
 
   
